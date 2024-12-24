@@ -50,11 +50,11 @@ A model that can predict students’ grades with high accuracy, along with insig
 * G2: second period grade (numeric: from 0 to 20)
 * G3: final grade (numeric: from 0 to 20, output target)
 ## 4. Tools and Technologies
-Programming Languages: Python.
-Libraries:
-Data Processing: Pandas, NumPy.
-Visualisation: Matplotlib, Seaborn, Plotly express
-Modeling: scikit-learn, statsmodels.
+* Programming Languages: Python.
+* Libraries:
+  - Data Processing: Pandas, NumPy.
+  - Visualisation: Matplotlib, Seaborn, Plotly express
+  - Modeling: scikit-learn, statsmodels.
 ## 5. Initial Analysis Plan:
 * Data Cleaning: Handle missing values, correct data types, and remove duplicates.
 * EDA: Generate summary statistics, visualize distributions, and explore relationships between variables.
