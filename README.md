@@ -1,4 +1,4 @@
-#  Factors impacting Study performance Analysis
+#  Predicting and Analyzing Factors Influencing Student Academic Performance
 
 ## 1. Purpose: 
 To identify and evaluate the factors influencing students' performances and predict final academic grades (G3), while answering these questions:
@@ -55,10 +55,41 @@ A model that can predict students’ grades with high accuracy, along with insig
   - Data Processing: Pandas, NumPy.
   - Visualisation: Matplotlib, Seaborn, Plotly express
   - Modeling: scikit-learn, statsmodels.
-## 5. Initial Analysis Plan:
-* Data Cleaning: Handle missing values, correct data types, and remove duplicates.
-* EDA: Generate summary statistics, visualize distributions, and explore relationships between variables.
-* Analysis: Perform correlation analysis, build and evaluate a linear regression model, and identify key factors contributing to study performance.
-* Visualization: Create visualizations such as bar charts, histograms, and heatmaps to support the analysis.
-* Data Storytelling: Explaining the key drivers of study performance and recommendations for reducing bad grades.
+## 5. Key insights discovered
+### Social Factors:
+- Females generally perform better academically compared to males across various factors like study time and alcohol consumption.
+- Excessive or minimal socialization is associated with poorer academic performance due to a lack of balance.
+- High alcohol consumption (levels 4-5) consistently correlates with the lowest grades.
+### Academic Factors
+- Increased study time positively impacts grades, with optimal performance seen at 5-10 hours per week.
+- Past class failures strongly negatively affect academic performance.
+Students aspiring for higher education tend to score significantly higher.
+### Personal Background:
+- Students with higher parental education tend to achieve better grades.
+- Students whose parents work as teachers have a higher mean grade (13.10) compared to the general population (11.91).
+- Urban students perform better academically compared to rural students.
 
+## 6. Hypotheses Based on the Insights
+- Students with moderate levels of socialization achieve higher grades than those with extreme levels (too high or too low).
+- Alcohol consumption negatively impacts academic performance, with higher levels of consumption leading to poorer grades.
+- Students with aspirations for higher education are more motivated and achieve better results.
+- Past academic failures are significant predictors of future poor performance.
+- Parental education and professional background (e.g., being a teacher) contribute positively to students’ academic success.
+
+## 7. Recommendations Based on Analysis Results
+### Gender-Specific Support:
+
+Males: Provide mentorship programs focusing on balancing social activities with academics.
+Females: Encourage leadership roles in study groups to share successful strategies.
+### Promote a Balanced Lifestyle:
+- Encourage moderate socialization through school-led clubs and team activities.
+- Provide time management training to help students maintain a balance between study and leisure.
+### Address Alcohol Consumption:
+- Organize awareness campaigns highlighting the negative impact of alcohol on grades.
+- Offer alternatives like hobby clubs or non-alcoholic social events.
+### Motivate and Support Struggling Students:
+- Implement early intervention programs, including tutoring and mentorship for students with prior failures.
+- Offer career counseling to emphasize the benefits of higher education.
+### Parental and Facilitator Involvement:
+- Conduct workshops for parents to equip them with strategies to support their children’s academic growth.
+- Establish school-based digital learning hubs to provide internet access and resources for students in need.
